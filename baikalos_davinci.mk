@@ -24,6 +24,9 @@ $(call inherit-product, device/xiaomi/davinci/device.mk)
 # Inherit some common BaikalOS stuff.
 $(call inherit-product, vendor/baikalos/config/common_full_phone.mk)
 
+# OPlauncher
+$(call inherit-product, vendor/oplauncher/oplauncher.mk)
+
 PRODUCT_NAME := baikalos_davinci
 PRODUCT_DEVICE := davinci
 PRODUCT_BRAND := Xiaomi
