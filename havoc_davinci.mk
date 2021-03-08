@@ -22,12 +22,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/davinci/device.mk)
 
 # Inherit some common BaikalOS stuff.
-$(call inherit-product, vendor/baikalos/config/common_full_phone.mk)
+$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
 # OPlauncher
 $(call inherit-product, vendor/oplauncher/oplauncher.mk)
 
-PRODUCT_NAME := baikalos_davinci
+PRODUCT_NAME := havoc_davinci
 PRODUCT_DEVICE := davinci
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi 9T

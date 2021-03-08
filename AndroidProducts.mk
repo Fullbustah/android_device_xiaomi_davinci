@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/baikalos_davinci.mk
+    $(LOCAL_DIR)/havoc_davinci.mk
 
 COMMON_LUNCH_CHOICES := \
-    baikalos_davinci-user \
-    baikalos_davinci-userdebug \
-    baikalos_davinci-eng
+    havoc_davinci-user \
+    havoc_davinci-userdebug \
+    havoc_davinci-eng
