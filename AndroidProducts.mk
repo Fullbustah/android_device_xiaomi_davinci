@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_davinci.mk
+    $(LOCAL_DIR)/baikalos_davinci.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_davinci-user \
-    aosp_davinci-userdebug \
-    aosp_davinci-eng
+    baikalos_davinci-user \
+    baikalos_davinci-userdebug \
+    baikalos_davinci-eng
